@@ -6,23 +6,12 @@ const Footer = () => {
       <section className="footer">
         <div className="ftt">
           <h1>WE'RE HERE FOR YOU</h1>
-          {/* <h1>Have Questions?</h1> */}
-          {/* <h1>Get in Touch!</h1> */}
+
           <h2>One quick call and you look wonderful!</h2>
-          {/* <div class="cntact">
-          <div class="cnt1"> */}
-          {/* <div class="fas fa-envelope"></div>
-            <div class="email">Email Us</div> */}
-          {/* <div class="emailname">niki.roy23@gmail.com</div> */}
-          {/* </div> */}
-          {/* <div class="cnt2"> */}
-          {/* <div class="fas fa-phone"></div> */}
-          {/* <div class="email">Call Us</div> */}
+
           <div className="number">+91 8977013338</div>
-          {/* <div class="emailname">heybabeaddcolourstoyournails@gmail.com</div> */}
         </div>
-        {/* </div> */}
-        {/* </div> */}
+
 
       </section >
       <div className="main">

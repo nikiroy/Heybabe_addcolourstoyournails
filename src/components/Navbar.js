@@ -26,8 +26,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </nav>
         <div className="icons">
-          {/* <a href="/" className="btn">
-            Call:+123456789          </a> */}
+
           <div
             className="fas fa-bars"
             id="menu-btn"

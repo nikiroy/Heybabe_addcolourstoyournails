@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 * {
   font: 25px/1 "Georgia";
@@ -340,11 +340,6 @@ section {
   margin-left: auto;
   margin-right: auto;
 
-
-
-
-
-
 }
 
 .work .box-container .box {
@@ -425,10 +420,11 @@ section {
 
 .contact .row {
   display: flex;
+  flex-direction: row;
   background: #dfcbcf;
   flex-wrap: wrap;
   gap: 1rem;
-  border-radius: 5%;
+  /* border-radius: 10%; */
 
 }
 
@@ -443,10 +439,12 @@ section {
 }
 
 .contact .row .map {
-  flex: 1 1 45rem;
+  flex: 4 1 45rem;
   width: 100%;
   object-fit: cover;
-  border-radius: 10%;
+  /* border-radius: 20%; */
+  margin-top: 13rem;
+
 
 }
 
@@ -499,6 +497,16 @@ section {
 .contact .row .emi p {
   text-align: start;
 
+}
+
+.row .button {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  /* color: #fff; */
+  background: #4b0422;
+  cursor: pointer;
 }
 
 /* .contact .row span {

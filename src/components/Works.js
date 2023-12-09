@@ -16,7 +16,6 @@ const Works = () => {
               <div class="image">
 
                 <img src={item.img} alt="" />
-                {/* <h1>properties:{item.nikita}</h1> */}
               </div>
             </div>
 
